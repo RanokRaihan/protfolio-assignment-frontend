@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 const HeroSection = () => {
   return (
     <div className="w-full min-h-svh pt-20 md:pt-0 ">
-      <div className="container p-4 mx-auto h-svh items-center justify-between grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="container p-4 mx-auto h-full items-center justify-between grid grid-cols-1 md:grid-cols-2 gap-4">
         <section
           className="text-center md:text-left"
           aria-labelledby="hero-heading"
